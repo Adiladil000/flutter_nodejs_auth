@@ -124,7 +124,8 @@ class AuthService {
         userProvider.setUser(userRes.body);
       }
     } catch (e) {
-      print(e.toString());
+      print("dsdsdds $e");
+
       // showSnackBar(context, e.toString());
     }
   }
